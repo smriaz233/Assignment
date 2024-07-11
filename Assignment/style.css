@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,800;1,800&display=swap');
+
+.azeret-mono-abnormal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+}
+/*Navigation Style Start*/
+.nav-css{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 200px auto 200px;
+    color: #0D1321;
+}
+/*Navigation Style End*/
+/*Header style start*/
+.bg{
+    background-image: url(./B10A1-Challenge-Begins/assets/Hero-bg.png);
+    width: 1440px 652px;
+    background-repeat: no-repeat;
+    
+}
+.header-container{
+    text-align: center;
+    margin: auto 200px auto 200px;
+}
+.header-content{
+    color: aliceblue;
+    background-color: #0D1321;
+}
+/*Header style end*/
+
+/*shared styles*/
+.main-content-1{
+    border-width: 20px;
+    border-top: 100px;
+    border-bottom: 100px;
+    border-left: 200px;
+    border-right: 200px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    opacity: 0.7;
+
+}
+.main-content-2{
+    border-width: 20px;
+    border-top: 100px;
+    border-bottom: 100px;
+    border-left: 200px;
+    border-right: 200px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.main-content-3{
+    background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-size: 70% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 330px;
+    left: 240px;
+    right: 152px;
+    top: 3770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 16px;
+
+}
+
+.main-description{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    color: #0D1321;
+    position: static;
+    width: 850px;
+    height: 240px;
+    flex-direction: row;
+    align-items: center;
+    margin: 32px 0px;
+   
+}
+.div-header{
+    text-align:center;
+    color: #0D1321;
+    position: static;
+    width: 852px;
+    height: 80px;
+}
+.div-header-1{
+    text-align:left;
+    color: #0D1321;
+    position: static;
+    width: 752px;
+    height: 80px;
+    
+}
+.describe-1{
+    width: 470px;
+    height: 215px:
+}
+
+/*skills section style*/
+.skill-container-1{
+    display: flex;
+    gap: 24px;
+
+}
+.skill-container-2{
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.skill-1{
+    margin: 10px;
+    background-color: rgba(255, 76, 30, 0.05);
+    
+}
+.skill-2{
+    margin: 10px;
+    background-color:rgba(0, 76, 232, 0.05);
+}
+.skill-3{
+    margin: 10px;
+    background-color:rgba(255, 223, 0, 0.05);
+}
+.skill-item{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+    gap: 15px;
+}
+
+.skill-des{
+    padding: 30px;
+    
+}
+.support{
+    text-align: center;
+    color: white;
+}
+
+.Footer-content{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 4, 38, 0.03);
+    padding: 20px 150px 20px 150px;
+    position: static;
+    width: 1140px;
+    height: 36px;
+    }
